@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <title>Pedra Papel Tesoura</title>
+  <script src="script.js"></script>
+  <link href="style.css" rel="stylesheet" type="text/css" />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Work+Sans:wght@300&display=swap" rel="stylesheet">
+</head>
+
+<body>
+  
+  <div class="centered">
+  
+    <h1>WELCOME TO THE MONKEY GAME</h1>
+
+    <!--imagens-->
+    <div class="center"> 
+      <img src="imgs/pedra.jpg" alt="pedra" onclick="play(1)">
+      <img src="imgs/papel.jpg" alt="papel" onclick="play(2)">
+      <img src="imgs/tesoura.jpg" alt="tesoura" onclick="play(3)">
+    </div>
+
+    <!--vencedor e placar-->
+    <div>
+      <h3 id="winner">Aqui vai o vencedor</h3>
+      <h3 id="score">Aqui vai o placar</h3>
+    </div> 
+  </div>
+</body>
+</html>
